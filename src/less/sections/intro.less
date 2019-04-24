@@ -1,0 +1,49 @@
+#intro{
+  position: relative;
+  // padding-top: 70px;
+  height: 100%;
+  background-image: url('../../images/hero-tyres.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: @overlay-color;
+  .overlay{
+    z-index: 5;
+  }
+  .container{
+    width: 100%;
+    z-index: 10;
+    .center();
+  }
+  .title{
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.45px;
+  }
+  h3{
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .row{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+  }
+
+  li{
+    margin-bottom: 14px;
+    span{
+      border-bottom: 1px solid @overlay-color;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+}

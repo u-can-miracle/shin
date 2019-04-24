@@ -1,0 +1,368 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: '';
+  content: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+html {
+  /* Prevent font scaling in landscape while allowing user zoom */
+  -webkit-text-size-adjust: 100%;
+}
+input,
+input[type=text],
+input[type=file],
+input[type=password],
+input[type=number],
+input[type=range],
+input[type=date],
+input[type=time],
+input[type=month],
+input[type=datetime-local],
+button,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0px;
+}
+a:hover,
+button:hover,
+input:hover,
+textarea:hover,
+.slick-slide:hover,
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+.slick-slide:focus,
+a:active,
+button:active,
+input:active,
+textarea:active,
+.slick-slide:active {
+  outline: none;
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+/***  Custom variables  ***/
+/***  Bootstrap variables  ***/
+/***  Usage  ***/
+/*
+.article {
+  .translateZ();
+}
+*/
+/***  Usage  ***/
+/*
+.article {
+  .center();
+}
+*/
+/***  Usage  ***/
+/*
+.article {
+  .clearfix();
+}
+*/
+/***  Usage  ***/
+/*
+.article {
+  .transition();
+}
+*/
+/***  Usage  ***/
+/*
+.article {
+	.opacity();
+}
+*/
+/***  Usage  ***/
+/*
+.article {
+	.hoverAsBtn();
+}
+*/
+@font-face {
+  font-family: Roboto;
+  font-weight: 200;
+  font-style: normal;
+  src: url('../fonts/Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 200;
+  font-style: italic;
+  src: url('../fonts/Roboto-ThinItalic.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Roboto-Italic.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: italic;
+  src: url('../fonts/Roboto-MediumItalic.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: italic;
+  src: url('../fonts/Roboto-BoldItalic.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Roboto-BlackItalic.ttf');
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body div,
+body p,
+body li {
+  font-family: 'Roboto';
+}
+html,
+body {
+  height: 100%;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.container {
+  padding: 0 15px;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.65;
+}
+#intro {
+  position: relative;
+  height: 100%;
+  background-image: url('../../images/hero-tyres.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+#intro .overlay {
+  z-index: 5;
+}
+#intro .container {
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#intro .title {
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1.45px;
+}
+#intro h3 {
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+#intro .row {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+#intro li {
+  margin-bottom: 14px;
+}
+#intro li span {
+  border-bottom: 1px solid #fff;
+  font-style: italic;
+  font-weight: 500;
+}
