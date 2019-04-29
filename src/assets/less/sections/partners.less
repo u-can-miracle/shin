@@ -1,0 +1,45 @@
+#partners{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-top: 1px solid @border-color;
+  .container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .gallery{
+    margin-left: -10px;
+    margin-right: -10px;
+    .clearfix();
+  }
+
+  .single-gallery{
+    width: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    float: left;
+    &:nth-child(2n-1){
+      &:last-child{
+        margin-left: 33.33%;
+      }
+    }
+    .border-wrapper{
+      padding: 15px 10px 10px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+    }
+    p{
+      height: 45px;
+      text-align: center;
+    }
+    img{
+      .res-img();
+      height: 350px;
+    }
+  }
+}

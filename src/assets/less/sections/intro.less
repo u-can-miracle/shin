@@ -1,8 +1,7 @@
 #intro{
   position: relative;
-  // padding-top: 70px;
   height: 100%;
-  background-image: url('../../images/hero-tyres.jpg');
+  background-image: url('../images/hero-tyres.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +19,7 @@
     font-size: 40px;
     font-weight: 300;
     text-align: center;
-    letter-spacing: 1.45px;
+    letter-spacing: 1.5px;
   }
   h3{
     margin-bottom: 50px;
@@ -32,7 +31,7 @@
   .row{
     width: 100%;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     display: flex;
     padding: 0 40px;
     justify-content: space-between;
@@ -44,6 +43,29 @@
       border-bottom: 1px solid @overlay-color;
       font-style: italic;
       font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  .enterprise-offer{
+    transform: translateY(50px);
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    h4{
+      margin-bottom: 18px;
+    }
+    a{
+      position: relative;
+      width: 56px;
+      height: 56px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+    svg{
+      width: 32px;
+      height: 32px;
+      fill: @overlay-color;
     }
   }
 }
