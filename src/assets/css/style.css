@@ -342,11 +342,6 @@ header {
   border-bottom: 2px solid #999;
   background: rgba(255, 255, 255, 0.75);
 }
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 header img {
   width: 350px;
 }
@@ -358,6 +353,7 @@ header .title {
 }
 header ul {
   padding-top: 11px;
+  float: right;
 }
 header ul li {
   margin-bottom: 14px;
@@ -420,14 +416,21 @@ header ul a {
   padding: 0 40px;
   justify-content: space-between;
 }
+#intro .logo {
+  margin: 0 auto 65px;
+  display: block;
+}
 #intro li {
   margin-bottom: 14px;
 }
+#intro li a,
 #intro li span {
+  text-decoration: none;
   border-bottom: 1px solid #fff;
+  font-weight: 600;
   font-style: italic;
-  font-weight: 500;
   font-size: 20px;
+  color: #fff;
 }
 #intro .enterprise-offer {
   transform: translateY(50px);
@@ -454,7 +457,6 @@ header ul a {
 #enterprise {
   padding-top: 90px;
   padding-bottom: 45px;
-  background: #f7f7f7;
 }
 #enterprise h2 {
   margin-bottom: 50px;
@@ -516,6 +518,9 @@ header ul a {
 #enterprise .features-descriptions > div:last-child {
   margin-bottom: 0;
 }
+#enterprise .features-descriptions > div.private {
+  display: block;
+}
 #enterprise .features-descriptions h5 {
   margin-bottom: 12px;
   text-align: center;
@@ -524,6 +529,23 @@ header ul a {
 #enterprise .features-descriptions p {
   text-indent: 25px;
   line-height: 1.45;
+}
+#private {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-top: 1px solid #b3b9c5;
+  background: #f7f7f7;
+}
+#private h4 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 24px;
+}
+#private p {
+  max-width: 640px;
+  margin: auto;
+  line-height: 1.45;
+  text-indent: 24px;
 }
 #partners {
   padding-top: 64px;

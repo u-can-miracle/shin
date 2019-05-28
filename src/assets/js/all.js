@@ -12486,7 +12486,7 @@ function toggleSpecOffers(){
     const clickedItem = $(this);
     const className = 'opened';
     const itemIndex = clickedItem.parent().index();
-    const descriptions = $('.features-descriptions > div');
+    const descriptions = $('.features-descriptions > div').not('.private');
 
     if(clickedItem.hasClass(className)){
       clickedItem.removeClass(className);
